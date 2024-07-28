@@ -7,13 +7,13 @@ app = Flask(__name__)
 
 @app.route("/", strict_slashes=False)
 def hello():
-    """Return hello"""
+    """Returns a Hello"""
     return "Hello HBNB"
 
 @pp.route("/hbnb", strict_slashes=False)
 def hbnb():
-    """Returns hbnb"""
+    """Returns a hbnb"""
     return "HBNB"
 
-If __name__ == "__main__":
+if __name__ == "__main__":
     app.run()
